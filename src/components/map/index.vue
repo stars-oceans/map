@@ -62,13 +62,15 @@ watch(props, (newValue, oldValue) => {
 });
 
 
+// 你申请的安全密钥
 window._AMapSecurityConfig = {
-    securityJsCode: 'd1004817b7a81314ef6fc583306eaf30',
+    securityJsCode: '3b6eeb4cf9996a5567d0466141db62eb',
 };
 
+//  key
 const initMap = () => {
     AMapLoader.load({
-        key: '47b12b411f89d73f5b0d31cabc3643dd', // 设置您的key
+        key: 'd54b5cb31bb2c63c0ec57bb23e01c3ae', // 设置您的key
         version: '2.0',
         plugins: ['AMap.ToolBar', 'AMap.Driving'],
         AMapUI: {

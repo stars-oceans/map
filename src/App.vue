@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <div class="nav">
-      <router-link class="link" to="home">Home</router-link>
       <router-link class="link" to="map">Map</router-link>
-      <router-link class="link" to="upload">Upload</router-link>
     </div>
     <div class="container">
       <router-view></router-view>

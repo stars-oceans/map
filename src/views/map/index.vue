@@ -8,7 +8,7 @@
 <script setup>
 import { ref } from "vue";
 import Map from "@/components/map/index.vue";
-
+ 
 const isShow = ref(false);
 
 //关闭地图
